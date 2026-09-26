@@ -2,8 +2,8 @@
 
 Companion code for *Developing for iPhone Duo: Approaches and Tips* by Ihor
 Malovanyi. The book (PDF + EPUB, 159 pages, hardware-verified update free for
-every buyer) is on Gumroad: <link> and Buy Me a Coffee: <link>. The first
-chapter is free: <link>.
+every buyer) is on Gumroad: https://ihormalovanyi.gumroad.com/l/iphone-duo and Buy Me a Coffee: <link>. The first
+chapter is free: https://ihormalovanyi.gumroad.com/l/iphone-duo-sample.
 
 ## What this is
 
