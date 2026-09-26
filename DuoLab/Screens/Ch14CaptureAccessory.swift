@@ -23,7 +23,7 @@ import UIKit
 @MainActor @Observable
 final class TeleprompterModel {
     var script = """
-        Unfolded. One app, two displays, every pose. Read this from \
+        iPhone Duo. One app, two displays, every pose. Read this from \
         the outer display while the inner display runs the camera.
         """
     var fontSize = 34.0
