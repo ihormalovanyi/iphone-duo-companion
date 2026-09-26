@@ -1,9 +1,15 @@
-# DuoLab
+# Developing for iPhone Duo: companion code
 
 Companion code for *Developing for iPhone Duo: Approaches and Tips* by Ihor
-Malovanyi. The book (PDF + EPUB, 159 pages, hardware-verified update free for
-every buyer) is on Gumroad: https://ihormalovanyi.gumroad.com/l/iphone-duo and Buy Me a Coffee: <link>. The first
-chapter is free: https://ihormalovanyi.gumroad.com/l/iphone-duo-sample.
+Malovanyi: DuoLab (SwiftUI), DuoLab UIKit, DuoProbe (the measurement
+instrument behind the book's numbers) and Postcards (a showcase app you can
+fold). Built with Xcode 27.1 beta and the iOS 27.1 SDK.
+
+- **The book**: 160 pages, 19 chapters, PDF + EPUB, the hardware-verified
+  v1.1 free for every buyer: https://ihormalovanyi.gumroad.com/l/iphone-duo
+- **Free sample**: the cover, the front matter and Chapter 1:
+  https://ihormalovanyi.gumroad.com/l/iphone-duo-sample
+- **Screenshots of Postcards in every pose**: `Postcards/Screenshots/`
 
 ## What this is
 
