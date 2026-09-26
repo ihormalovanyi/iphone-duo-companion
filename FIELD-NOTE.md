@@ -4,14 +4,6 @@
 
 Apple's iPhone Duo documentation tells you what the APIs are. A probe app, a few hundred folds in Device Hub and one hidden slider tell you what they return.
 
-<div class="post-tags">
-
-<span class="chip">Public API, iOS 27.1 beta</span><span class="sym">DeviceHinge</span><span class="sym">ReservedRegion</span><span class="sym">toolbarVerticalEdge</span><span class="sym">verticalBarEdge</span><span class="sym">presentationDetents</span>
-
-</div>
-
-<div class="body">
-
 Apple's iPhone Duo pages are good at telling you what the APIs are. They say much less about what the APIs return. So I put a probe app on the iOS 27.1 simulator, folded it a few hundred times with Device Hub, and wrote down what came back. This is the part that changed how I write layout code.
 
 ### The hidden slider
@@ -39,21 +31,13 @@ The outer display never changes, so it is tempting to assume its size classes do
 
 This one needed no probe. Present a plain `.sheet` with medium and large detents from the detail column of a `NavigationSplitView`. Closed, it rises to half height over the content. Open in the wide layout, it is centred across the scene. Folded like a book, it sits over the leading panel only and leaves the fold alone. Folded like a laptop, it fills the lower panel and your content stays in the upper one. Zero pose-specific code. Most of adapting to iPhone Duo is not fighting the system.
 
-<div class="figs">
+![Postcards app closed, with the Blueprint overlay drawing the bar strip, the status column region and the safe area over the card](Postcards/Screenshots/closed-portrait-blueprint.png)
 
-<figure>
-<img src="Postcards/Screenshots/closed-portrait-blueprint.png" alt="Postcards app closed, with the Blueprint overlay drawing the bar strip, the status column region and the safe area over the card" />
-<figcaption>Closed pose with the Blueprint overlay: the bar's 84 pt strip, the 84 × 170 pt status-column region, the safe area. Every line comes from an API the app can query.</figcaption>
-</figure>
+*Closed pose with the Blueprint overlay: the bar's 84 pt strip, the 84 × 170 pt status-column region, the safe area. Every line comes from an API the app can query.*
 
-<figure>
-<img src="Postcards/Screenshots/book-sheet.png" alt="Postcards app folded like a book, with the edit sheet on the left panel and the card on the right" />
-<figcaption>Book pose: the sheet takes the leading panel and the card stays on the trailing one. Nothing in the code mentions the fold.</figcaption>
-</figure>
+![Postcards app folded like a book, with the edit sheet on the left panel and the card on the right](Postcards/Screenshots/book-sheet.png)
 
-</div>
-
-<div class="measured">
+*Book pose: the sheet takes the leading panel and the card stays on the trailing one. Nothing in the code mentions the fold.*
 
 | Measured | Value | Where |
 |----|----|----|
@@ -65,15 +49,10 @@ This one needed no probe. Present a plain `.sheet` with medium and large detents
 | Hinge status after a click | closed at 36.6, 71.2, 108.6, 123.3°; partially open at 143.1° | slider |
 | Software keyboard | 669 × 350 tall, 951 × 264 wide, 678 × 230 closed landscape, 466 × 289 closed portrait | all but laptop |
 
-</div>
-
 ### How this was measured
 
 The probe logs one JSON line per layout pass, hinge update, scene change and keyboard notification: scene size, size classes, safe-area insets, bar edge, reserved regions with their frames and flags, hinge status and angle. Every value above comes from settled records, never from the frames the simulator logs during a rotation. The probe, DuoProbe, ships in the companion project below.
 
-</div>
-
-<div class="aside from">
 
 ### Where this comes from
 
@@ -84,4 +63,3 @@ This field note is a slice of *Developing for iPhone Duo: Approaches and Tips*, 
 - [Companion code on GitHub](https://github.com/ihormalovanyi/iphone-duo-companion): DuoLab, DuoProbe and Postcards, the app in the pictures
 - [Below the Glass](https://claude.ai/artifact/8KNgYdi93aLYYCC9bTnrUX), the main series on what iOS 26 hides
 
-</div>
