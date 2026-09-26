@@ -1,0 +1,1098 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		028D01348FAA53142B4DFC00 /* Ch15Games.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A8BF7B7696147D1396FFA6 /* Ch15Games.swift */; };
+		0AFAE9EC678CDE7BEC2B3A77 /* Ch03Probe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9767DDC2303890A6F074C2 /* Ch03Probe.swift */; };
+		0C8F194B3BA2FAEA750EA693 /* PoseLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3BAB45D1C128D1F0A8EC406 /* PoseLabel.swift */; };
+		1096D85962BDCDFD2DE717B6 /* Ch11Poses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805AE0ED360C4AD5937AA029 /* Ch11Poses.swift */; };
+		1111AB75D4F9C3ACF4881F94 /* PoseLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3BAB45D1C128D1F0A8EC406 /* PoseLabel.swift */; };
+		12B461F0F76EC5D4CBB07771 /* DuoFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A31518813487BBC4893098D /* DuoFormat.swift */; };
+		1470270BD13F02A33210E4B8 /* Ch08ReservedRegions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F8BCA766228DC70B30CDF7 /* Ch08ReservedRegions.swift */; };
+		1BCB31A5F5DC0498F0F0C933 /* Ch04FluidLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E17323EB6EA81BE4F9EB88D /* Ch04FluidLayout.swift */; };
+		1C798CB943A60F012CD129F7 /* DuoProbeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF0A0CCA5498A3DB1D1A24F /* DuoProbeApp.swift */; };
+		1D33D5B596B7BDF4C0BEB449 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AF241B66DA15A6C11BA432 /* AppDelegate.swift */; };
+		1E6FB2E0581C44879CB87ECA /* Postcard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAEBA08FEF374AF4B2CD330 /* Postcard.swift */; };
+		21E36C4F15133F5F119A0FC0 /* ProbeRecord+Conversions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA6A89FAA929BC9F456130D /* ProbeRecord+Conversions.swift */; };
+		26B36BFA116A915E1F964760 /* Ch04FluidLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF6E4B48CADB5194D755CDD /* Ch04FluidLayout.swift */; };
+		2ED58C8C38F95637A89AEF60 /* DuoLabApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25482FBED51719B82EC1099C /* DuoLabApp.swift */; };
+		3533011A927E2546A1FAA19E /* Ch19Migration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D20C7D0ED1E96DEFEA908FD /* Ch19Migration.swift */; };
+		361000CA2BE4AA04DBE82F9B /* Ch08ReservedRegions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9DAF163609FB49A800F3B9 /* Ch08ReservedRegions.swift */; };
+		363B4E779537AEA21683299A /* Ch10Hinge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE3720C985D8817A731C79C /* Ch10Hinge.swift */; };
+		3693E8CECC2A85000B03FF11 /* Ch07Bars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278E9F1226681D9EE0524183 /* Ch07Bars.swift */; };
+		39DD34968EE398275FFF3BC8 /* open-wide-card.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EA255E37A3CAFC2143FBE29 /* open-wide-card.png */; };
+		3DFA63D082C4842E07FBFC82 /* Ch14CaptureAccessory.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBA2AF73DF1CBDC57F0ABC8 /* Ch14CaptureAccessory.swift */; };
+		473A2EFD22DFCA907F5E5E9B /* CardDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = A855AB3603C50E0CB69E4597 /* CardDetail.swift */; };
+		49EA49440B488C6D41CD8E18 /* ProbeRecord+Conversions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA6A89FAA929BC9F456130D /* ProbeRecord+Conversions.swift */; };
+		4AAB577982C1C085E92F3A8D /* ProbeRecord+Conversions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA6A89FAA929BC9F456130D /* ProbeRecord+Conversions.swift */; };
+		4E6EC65C36DEBA3C70E60F19 /* Ch02SceneGeometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21CC19DC3F89F8B4F69B43D7 /* Ch02SceneGeometry.swift */; };
+		55583D4A929524EE0E2F03E7 /* Ch06Containers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4940AC1048E6BD58522DA03 /* Ch06Containers.swift */; };
+		5576F051C829F230E9426599 /* UIKitProbeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9570E9AC2D11A82F056897 /* UIKitProbeViewController.swift */; };
+		5A8B82187C65577BDECA082B /* ProbeNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62572C5B595C5B266D5F3ED /* ProbeNames.swift */; };
+		670B31A9B45F6018036177B6 /* Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571FE4F2CEF432C26F2872D2 /* Components.swift */; };
+		69A8A20FA4D55C95B26D5164 /* ProbeRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA2AABEBE7F548C373C21FF /* ProbeRecord.swift */; };
+		6A853B55D7DDD2FA99FDDB39 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44496E60266EAE98E67002BA /* SceneDelegate.swift */; };
+		6C55E45D712558D17C57A8E0 /* Ch13Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81056366901B6D28A7950730 /* Ch13Camera.swift */; };
+		71A6F8C6C41F8B71E519CD4B /* PostcardBack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9395AB5CD1EA86CCB44A100A /* PostcardBack.swift */; };
+		71B7787E4D4E559427D5438D /* Ch09Arrangements.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A6148C4D34EBD42B165CA9 /* Ch09Arrangements.swift */; };
+		7354569F89F2E2AE74BBABAD /* PoseLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3BAB45D1C128D1F0A8EC406 /* PoseLabel.swift */; };
+		75E25472B16E3D786F1C4867 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4D3C495CD7351DB66AAE76 /* RootView.swift */; };
+		79CE3B823B7BAABFE7C606DF /* DemoSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A266CE75E7A6527C12E42B /* DemoSupport.swift */; };
+		7A4B766556AA012F5BA65212 /* Ch10Hinge.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE13E3A7BFBCD068078C4424 /* Ch10Hinge.swift */; };
+		7D1F46077E757D3ACAAEB2EF /* closed-portrait-back.png in Resources */ = {isa = PBXBuildFile; fileRef = 44D808DC9F40BD217E8E1815 /* closed-portrait-back.png */; };
+		7D501EF30CB5D644B11F781D /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A81B52F3252F1A9A8F46B4F /* AboutView.swift */; };
+		7ED349DB61C702A9D1D10F41 /* DemoCatalogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3067A6FCDF2238D3EB1C9C70 /* DemoCatalogView.swift */; };
+		8168398A58E99F741015AF61 /* laptop-keyboard.png in Resources */ = {isa = PBXBuildFile; fileRef = 2ECF043F1B6CFF1E5ADA9903 /* laptop-keyboard.png */; };
+		823E3B90DD7D85C99C72CA74 /* Ch06Containers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36AF113C8714A0D4F9A3944 /* Ch06Containers.swift */; };
+		89CF44149FBC1628FE214765 /* Ch12Windows.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5575CD197282A3AC349DA2D3 /* Ch12Windows.swift */; };
+		8D9142BD18037454B4A57D25 /* Ch16Web.swift in Sources */ = {isa = PBXBuildFile; fileRef = C916EA63F8C2A8B9D9411CC9 /* Ch16Web.swift */; };
+		944E80C7E031A66BF6D4CD16 /* Ch17System.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A04287A64853272FF1C4A0A /* Ch17System.swift */; };
+		96E6451C14EE5C843E943C6B /* Ch05SafeAreas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A55B6F444AEDBEB1544696 /* Ch05SafeAreas.swift */; };
+		987FDC45DC4004363E3F0F86 /* PoseLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3BAB45D1C128D1F0A8EC406 /* PoseLabel.swift */; };
+		98E2C5798A1B29CB46A29ADA /* Blueprint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376933D83468E5072467F0FE /* Blueprint.swift */; };
+		9A7B9FB65FECD58BFEC12E86 /* PostcardStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57EB9A29CF6208859E8433A4 /* PostcardStore.swift */; };
+		9D21DC1FB0F456483C796F0D /* SwiftUIProbeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A61C56A7E5F83587263116 /* SwiftUIProbeView.swift */; };
+		A0BBB3C826ABF8F56DE6C0F7 /* PoseMatrixUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACC64238F44513A0F9E4877 /* PoseMatrixUITests.swift */; };
+		A9304A00E9292DEC9EA0AEF3 /* CardsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E73694009EFA8BC682363A2 /* CardsList.swift */; };
+		AAE1729FFD3A5F7C4E0F4D0E /* Ch05SafeAreas.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8CA15402EFCE11CE3573FB /* Ch05SafeAreas.swift */; };
+		AC2881A26CC349132D03EAB5 /* closed-portrait-front.png in Resources */ = {isa = PBXBuildFile; fileRef = 67C60A93CFF9E75593D673C9 /* closed-portrait-front.png */; };
+		AE78D7C706BA96381F6BA6CD /* DemoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F3EA7B2F5D1AEF809A7168 /* DemoListViewController.swift */; };
+		B2E838CE0DC8481382508FAA /* ProbeRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA2AABEBE7F548C373C21FF /* ProbeRecord.swift */; };
+		B7ADC69759270AC76D9F4C34 /* Ch12Scenes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093A8A727FDA1FAAF378720E /* Ch12Scenes.swift */; };
+		B86B21A3D94D04A46A9B67D1 /* Ch09Arrangements.swift in Sources */ = {isa = PBXBuildFile; fileRef = B820D34A36DB90DAD3BB9751 /* Ch09Arrangements.swift */; };
+		BD6070EB885FE5A7D12907CA /* Demo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854CEA79D981FE305C553E29 /* Demo.swift */; };
+		BE568DDAA96D7EC3944177E9 /* ProbeNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62572C5B595C5B266D5F3ED /* ProbeNames.swift */; };
+		C2F1593ABE34B6A726FF66A6 /* PostcardsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74696E3D77D3236CCB39763 /* PostcardsApp.swift */; };
+		C380E0B38BF2B73F176C79E6 /* Ch17System.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57949A64063EB93CD8DE8FF /* Ch17System.swift */; };
+		C3FD4352EA7FE78706165ED4 /* PostcardFront.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266591B718B01AF451F8350D /* PostcardFront.swift */; };
+		C64D0B27BE7157D265FC8809 /* UIKitBridges.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5BCC816FA4C405FAA775D04 /* UIKitBridges.swift */; };
+		C8D3844D168ED0ABB7715822 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC6298DC922F2F35534DEF8 /* SettingsViewController.swift */; };
+		CFB128BB228BD3512232713F /* Ch14CaptureAccessory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C0B9A8A7CE51AD0963E993 /* Ch14CaptureAccessory.swift */; };
+		D184C1D1882A02DD57B0106C /* DemoDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272E0E57B5087BC7929477CF /* DemoDestination.swift */; };
+		D663EA8D3C465837228C0314 /* book-blueprint-overlay.png in Resources */ = {isa = PBXBuildFile; fileRef = 373D84178D2F7EF03D7B27EC /* book-blueprint-overlay.png */; };
+		D6EA3D6F8BC35247A3104581 /* HingeTilt.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E417B4EB0ADBEB413B0EC1 /* HingeTilt.swift */; };
+		E0305DA741825DC7A3205C90 /* ProbeLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D56E4BF7E4C808FAFF355B /* ProbeLog.swift */; };
+		E39A143B6800241DEA0872BD /* book-card.png in Resources */ = {isa = PBXBuildFile; fileRef = C642ACC97C9FC27BB4D0A966 /* book-card.png */; };
+		E7A6A10A53B398AD561C5A82 /* closed-portrait-blueprint.png in Resources */ = {isa = PBXBuildFile; fileRef = E2AEDDA4560721DCC0F93CEC /* closed-portrait-blueprint.png */; };
+		ED6ABD80C0A3A2E3D090C631 /* EditCardSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6898E7D8AE6E011DC9674AC8 /* EditCardSheet.swift */; };
+		EFB5F617D27B581A870A981D /* DuoFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A31518813487BBC4893098D /* DuoFormat.swift */; };
+		F1F293909F75F3D08820197D /* DuoFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A31518813487BBC4893098D /* DuoFormat.swift */; };
+		F31E687376FE7A25E8FA41E1 /* Ch02SceneGeometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197346AAA2E8DB001F144221 /* Ch02SceneGeometry.swift */; };
+		F323BAA7BE07DC4473981709 /* ProbeRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA2AABEBE7F548C373C21FF /* ProbeRecord.swift */; };
+		F39B071B58AE0B5AF3EBB185 /* Ch01HelloDuo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF25ABF14A100D7E8D96BEC /* Ch01HelloDuo.swift */; };
+		F3CF21D23BB716319AB08ABE /* ProbeContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C21861E26029AE9D7D904B3 /* ProbeContext.swift */; };
+		F68187053007241B536F12BA /* ProbeNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62572C5B595C5B266D5F3ED /* ProbeNames.swift */; };
+		F846C60E040D36774DF47B99 /* duo.html in Resources */ = {isa = PBXBuildFile; fileRef = 62E8E44005213F5AB34A98D3 /* duo.html */; };
+		FDA7CEBBE1CD13291461D24F /* Ch07Bars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF272B5506D271B3A214186 /* Ch07Bars.swift */; };
+		FEB24BD1CD876A608D397DCE /* RootTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84F35D51FF8F4F47779DD2C /* RootTabBarController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		14AC6DAE9AC772C5944B6BB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6FF9661E59F52EEAF5C6B809 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFE275B15FACD1EFFA9CB043;
+			remoteInfo = DuoLab;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		093A8A727FDA1FAAF378720E /* Ch12Scenes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ch12Scenes.swift; sourceTree = "<group>"; };
+		0A9570E9AC2D11A82F056897 /* UIKitProbeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitProbeViewController.swift; sourceTree = "<group>"; };
+		0EA255E37A3CAFC2143FBE29 /* open-wide-card.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "open-wide-card.png"; sourceTree = "<group>"; };
+		11E2044BCEFD071324043BCE /* DuoProbe.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = DuoProbe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		197346AAA2E8DB001F144221 /* Ch02SceneGeometry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ch02SceneGeometry.swift; sourceTree = "<group>"; };
+		1AC6298DC922F2F35534DEF8 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		1EE3720C985D8817A731C79C /* Ch10Hinge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ch10Hinge.swift; sourceTree = "<group>"; };
+		21CC19DC3F89F8B4F69B43D7 /* Ch02SceneGeometry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ch02SceneGeometry.swift; sourceTree = "<group>"; };
+		25482FBED51719B82EC1099C /* DuoLabApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuoLabApp.swift; sourceTree = "<group>"; };
+		266591B718B01AF451F8350D /* PostcardFront.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostcardFront.swift; sourceTree = "<group>"; };
+		272E0E57B5087BC7929477CF /* DemoDestination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoDestination.swift; sourceTree = "<group>"; };
+		278E9F1226681D9EE0524183 /* Ch07Bars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ch07Bars.swift; sourceTree = "<group>"; };
+		2ECF043F1B6CFF1E5ADA9903 /* laptop-keyboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "laptop-keyboard.png"; sourceTree = "<group>"; };
+		3067A6FCDF2238D3EB1C9C70 /* DemoCatalogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoCatalogView.swift; sourceTree = "<group>"; };
+		373D84178D2F7EF03D7B27EC /* book-blueprint-overlay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "book-blueprint-overlay.png"; sourceTree = "<group>"; };
+		376933D83468E5072467F0FE /* Blueprint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blueprint.swift; sourceTree = "<group>"; };
+		3E17323EB6EA81BE4F9EB88D /* Ch04FluidLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ch04FluidLayout.swift; sourceTree = "<group>"; };
+		3E73694009EFA8BC682363A2 /* CardsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsList.swift; sourceTree = "<group>"; };
+		40A266CE75E7A6527C12E42B /* DemoSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoSupport.swift; sourceTree = "<group>"; };
+		44496E60266EAE98E67002BA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		44D808DC9F40BD217E8E1815 /* closed-portrait-back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "closed-portrait-back.png"; sourceTree = "<group>"; };
+		46025018F2CAD841304FF803 /* DuoLabUIKit.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = DuoLabUIKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5575CD197282A3AC349DA2D3 /* Ch12Windows.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ch12Windows.swift; sourceTree = "<group>"; };
+		571FE4F2CEF432C26F2872D2 /* Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Components.swift; sourceTree = "<group>"; };
+		57EB9A29CF6208859E8433A4 /* PostcardStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostcardStore.swift; sourceTree = "<group>"; };
+		5AF272B5506D271B3A214186 /* Ch07Bars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ch07Bars.swift; sourceTree = "<group>"; };
+		62E8E44005213F5AB34A98D3 /* duo.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = duo.html; sourceTree = "<group>"; };
+		670037607CB042EF0925B3FA /* DuoLab.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = DuoLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		67C60A93CFF9E75593D673C9 /* closed-portrait-front.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "closed-portrait-front.png"; sourceTree = "<group>"; };
+		6898E7D8AE6E011DC9674AC8 /* EditCardSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditCardSheet.swift; sourceTree = "<group>"; };
+		6DF6E4B48CADB5194D755CDD /* Ch04FluidLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ch04FluidLayout.swift; sourceTree = "<group>"; };
+		7A31518813487BBC4893098D /* DuoFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuoFormat.swift; sourceTree = "<group>"; };
+		7D20C7D0ED1E96DEFEA908FD /* Ch19Migration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ch19Migration.swift; sourceTree = "<group>"; };
+		805AE0ED360C4AD5937AA029 /* Ch11Poses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ch11Poses.swift; sourceTree = "<group>"; };
+		80F3EA7B2F5D1AEF809A7168 /* DemoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoListViewController.swift; sourceTree = "<group>"; };
+		81056366901B6D28A7950730 /* Ch13Camera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ch13Camera.swift; sourceTree = "<group>"; };
+		854CEA79D981FE305C553E29 /* Demo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo.swift; sourceTree = "<group>"; };
+		89A55B6F444AEDBEB1544696 /* Ch05SafeAreas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ch05SafeAreas.swift; sourceTree = "<group>"; };
+		8A81B52F3252F1A9A8F46B4F /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		8DF0A0CCA5498A3DB1D1A24F /* DuoProbeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuoProbeApp.swift; sourceTree = "<group>"; };
+		9395AB5CD1EA86CCB44A100A /* PostcardBack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostcardBack.swift; sourceTree = "<group>"; };
+		93A61C56A7E5F83587263116 /* SwiftUIProbeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIProbeView.swift; sourceTree = "<group>"; };
+		93F8BCA766228DC70B30CDF7 /* Ch08ReservedRegions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ch08ReservedRegions.swift; sourceTree = "<group>"; };
+		9A04287A64853272FF1C4A0A /* Ch17System.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ch17System.swift; sourceTree = "<group>"; };
+		9A9767DDC2303890A6F074C2 /* Ch03Probe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ch03Probe.swift; sourceTree = "<group>"; };
+		9A9DAF163609FB49A800F3B9 /* Ch08ReservedRegions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ch08ReservedRegions.swift; sourceTree = "<group>"; };
+		9C21861E26029AE9D7D904B3 /* ProbeContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProbeContext.swift; sourceTree = "<group>"; };
+		A1A8BF7B7696147D1396FFA6 /* Ch15Games.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ch15Games.swift; sourceTree = "<group>"; };
+		A1C0B9A8A7CE51AD0963E993 /* Ch14CaptureAccessory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ch14CaptureAccessory.swift; sourceTree = "<group>"; };
+		A3A6148C4D34EBD42B165CA9 /* Ch09Arrangements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ch09Arrangements.swift; sourceTree = "<group>"; };
+		A74696E3D77D3236CCB39763 /* PostcardsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostcardsApp.swift; sourceTree = "<group>"; };
+		A855AB3603C50E0CB69E4597 /* CardDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDetail.swift; sourceTree = "<group>"; };
+		AACC64238F44513A0F9E4877 /* PoseMatrixUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoseMatrixUITests.swift; sourceTree = "<group>"; };
+		B36AF113C8714A0D4F9A3944 /* Ch06Containers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ch06Containers.swift; sourceTree = "<group>"; };
+		B4940AC1048E6BD58522DA03 /* Ch06Containers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ch06Containers.swift; sourceTree = "<group>"; };
+		B820D34A36DB90DAD3BB9751 /* Ch09Arrangements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ch09Arrangements.swift; sourceTree = "<group>"; };
+		B84F35D51FF8F4F47779DD2C /* RootTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabBarController.swift; sourceTree = "<group>"; };
+		BE13E3A7BFBCD068078C4424 /* Ch10Hinge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ch10Hinge.swift; sourceTree = "<group>"; };
+		BFAEBA08FEF374AF4B2CD330 /* Postcard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Postcard.swift; sourceTree = "<group>"; };
+		C57949A64063EB93CD8DE8FF /* Ch17System.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ch17System.swift; sourceTree = "<group>"; };
+		C5BCC816FA4C405FAA775D04 /* UIKitBridges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitBridges.swift; sourceTree = "<group>"; };
+		C642ACC97C9FC27BB4D0A966 /* book-card.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "book-card.png"; sourceTree = "<group>"; };
+		C916EA63F8C2A8B9D9411CC9 /* Ch16Web.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ch16Web.swift; sourceTree = "<group>"; };
+		CBBA2AF73DF1CBDC57F0ABC8 /* Ch14CaptureAccessory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ch14CaptureAccessory.swift; sourceTree = "<group>"; };
+		CCA6A89FAA929BC9F456130D /* ProbeRecord+Conversions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ProbeRecord+Conversions.swift"; sourceTree = "<group>"; };
+		D1D56E4BF7E4C808FAFF355B /* ProbeLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProbeLog.swift; sourceTree = "<group>"; };
+		D1F0D628C832F1F2D19F60BB /* DuoLabUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = DuoLabUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D62572C5B595C5B266D5F3ED /* ProbeNames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProbeNames.swift; sourceTree = "<group>"; };
+		D65521025EF2918D4AB5F0FA /* Postcards.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Postcards.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC4D3C495CD7351DB66AAE76 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		E2AEDDA4560721DCC0F93CEC /* closed-portrait-blueprint.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "closed-portrait-blueprint.png"; sourceTree = "<group>"; };
+		E3BAB45D1C128D1F0A8EC406 /* PoseLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoseLabel.swift; sourceTree = "<group>"; };
+		F0E417B4EB0ADBEB413B0EC1 /* HingeTilt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HingeTilt.swift; sourceTree = "<group>"; };
+		F4AF241B66DA15A6C11BA432 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FDF25ABF14A100D7E8D96BEC /* Ch01HelloDuo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ch01HelloDuo.swift; sourceTree = "<group>"; };
+		FF8CA15402EFCE11CE3573FB /* Ch05SafeAreas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ch05SafeAreas.swift; sourceTree = "<group>"; };
+		FFA2AABEBE7F548C373C21FF /* ProbeRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProbeRecord.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		26695FFA57A3C00577009A36 /* Web */ = {
+			isa = PBXGroup;
+			children = (
+				62E8E44005213F5AB34A98D3 /* duo.html */,
+			);
+			path = Web;
+			sourceTree = "<group>";
+		};
+		2FF5A2C0D47ADCDD5B3C0A79 /* DuoLabUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AACC64238F44513A0F9E4877 /* PoseMatrixUITests.swift */,
+			);
+			path = DuoLabUITests;
+			sourceTree = "<group>";
+		};
+		54E8B929A6B23BAB5ED575E3 = {
+			isa = PBXGroup;
+			children = (
+				E4EC0DEC49B373E268CCC749 /* DuoLab */,
+				8B33FFE3CF72C841DC296734 /* DuoLabUIKit */,
+				2FF5A2C0D47ADCDD5B3C0A79 /* DuoLabUITests */,
+				D22D77F0AB1DF666843CC710 /* DuoProbe */,
+				A7A3C9CA181A5414B2758619 /* Postcards */,
+				E70A5A6FF6ECCB42ABD67CC7 /* Shared */,
+				26695FFA57A3C00577009A36 /* Web */,
+				DB27C1CABCBF199F7B5CF3D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		77B4C8CA8E1E52FBE25CFABE /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				FDF25ABF14A100D7E8D96BEC /* Ch01HelloDuo.swift */,
+				21CC19DC3F89F8B4F69B43D7 /* Ch02SceneGeometry.swift */,
+				9A9767DDC2303890A6F074C2 /* Ch03Probe.swift */,
+				3E17323EB6EA81BE4F9EB88D /* Ch04FluidLayout.swift */,
+				89A55B6F444AEDBEB1544696 /* Ch05SafeAreas.swift */,
+				B36AF113C8714A0D4F9A3944 /* Ch06Containers.swift */,
+				5AF272B5506D271B3A214186 /* Ch07Bars.swift */,
+				9A9DAF163609FB49A800F3B9 /* Ch08ReservedRegions.swift */,
+				B820D34A36DB90DAD3BB9751 /* Ch09Arrangements.swift */,
+				1EE3720C985D8817A731C79C /* Ch10Hinge.swift */,
+				805AE0ED360C4AD5937AA029 /* Ch11Poses.swift */,
+				093A8A727FDA1FAAF378720E /* Ch12Scenes.swift */,
+				81056366901B6D28A7950730 /* Ch13Camera.swift */,
+				CBBA2AF73DF1CBDC57F0ABC8 /* Ch14CaptureAccessory.swift */,
+				A1A8BF7B7696147D1396FFA6 /* Ch15Games.swift */,
+				C916EA63F8C2A8B9D9411CC9 /* Ch16Web.swift */,
+				C57949A64063EB93CD8DE8FF /* Ch17System.swift */,
+				7D20C7D0ED1E96DEFEA908FD /* Ch19Migration.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		8B33FFE3CF72C841DC296734 /* DuoLabUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				C7DA0F6323008DE4E95FE078 /* App */,
+				A7043C5E7F01AF1A5D81CB56 /* Screens */,
+			);
+			path = DuoLabUIKit;
+			sourceTree = "<group>";
+		};
+		90805C8570B241DE4369FB82 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8A81B52F3252F1A9A8F46B4F /* AboutView.swift */,
+				376933D83468E5072467F0FE /* Blueprint.swift */,
+				A855AB3603C50E0CB69E4597 /* CardDetail.swift */,
+				3E73694009EFA8BC682363A2 /* CardsList.swift */,
+				6898E7D8AE6E011DC9674AC8 /* EditCardSheet.swift */,
+				F0E417B4EB0ADBEB413B0EC1 /* HingeTilt.swift */,
+				9395AB5CD1EA86CCB44A100A /* PostcardBack.swift */,
+				266591B718B01AF451F8350D /* PostcardFront.swift */,
+				DC4D3C495CD7351DB66AAE76 /* RootView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		93B8A5EF7CBEABC6291431C7 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				373D84178D2F7EF03D7B27EC /* book-blueprint-overlay.png */,
+				C642ACC97C9FC27BB4D0A966 /* book-card.png */,
+				44D808DC9F40BD217E8E1815 /* closed-portrait-back.png */,
+				E2AEDDA4560721DCC0F93CEC /* closed-portrait-blueprint.png */,
+				67C60A93CFF9E75593D673C9 /* closed-portrait-front.png */,
+				2ECF043F1B6CFF1E5ADA9903 /* laptop-keyboard.png */,
+				0EA255E37A3CAFC2143FBE29 /* open-wide-card.png */,
+			);
+			path = Screenshots;
+			sourceTree = "<group>";
+		};
+		A7043C5E7F01AF1A5D81CB56 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				197346AAA2E8DB001F144221 /* Ch02SceneGeometry.swift */,
+				6DF6E4B48CADB5194D755CDD /* Ch04FluidLayout.swift */,
+				FF8CA15402EFCE11CE3573FB /* Ch05SafeAreas.swift */,
+				B4940AC1048E6BD58522DA03 /* Ch06Containers.swift */,
+				278E9F1226681D9EE0524183 /* Ch07Bars.swift */,
+				93F8BCA766228DC70B30CDF7 /* Ch08ReservedRegions.swift */,
+				A3A6148C4D34EBD42B165CA9 /* Ch09Arrangements.swift */,
+				BE13E3A7BFBCD068078C4424 /* Ch10Hinge.swift */,
+				5575CD197282A3AC349DA2D3 /* Ch12Windows.swift */,
+				A1C0B9A8A7CE51AD0963E993 /* Ch14CaptureAccessory.swift */,
+				9A04287A64853272FF1C4A0A /* Ch17System.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		A7A3C9CA181A5414B2758619 /* Postcards */ = {
+			isa = PBXGroup;
+			children = (
+				A74696E3D77D3236CCB39763 /* PostcardsApp.swift */,
+				E100561151A0C2CC0DB75CE4 /* Model */,
+				93B8A5EF7CBEABC6291431C7 /* Screenshots */,
+				90805C8570B241DE4369FB82 /* Views */,
+			);
+			path = Postcards;
+			sourceTree = "<group>";
+		};
+		B4E5BB8AE6E699C45B3F3C14 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				571FE4F2CEF432C26F2872D2 /* Components.swift */,
+				854CEA79D981FE305C553E29 /* Demo.swift */,
+				3067A6FCDF2238D3EB1C9C70 /* DemoCatalogView.swift */,
+				272E0E57B5087BC7929477CF /* DemoDestination.swift */,
+				25482FBED51719B82EC1099C /* DuoLabApp.swift */,
+				C5BCC816FA4C405FAA775D04 /* UIKitBridges.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		C7DA0F6323008DE4E95FE078 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				F4AF241B66DA15A6C11BA432 /* AppDelegate.swift */,
+				80F3EA7B2F5D1AEF809A7168 /* DemoListViewController.swift */,
+				40A266CE75E7A6527C12E42B /* DemoSupport.swift */,
+				B84F35D51FF8F4F47779DD2C /* RootTabBarController.swift */,
+				44496E60266EAE98E67002BA /* SceneDelegate.swift */,
+				1AC6298DC922F2F35534DEF8 /* SettingsViewController.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		D22D77F0AB1DF666843CC710 /* DuoProbe */ = {
+			isa = PBXGroup;
+			children = (
+				8DF0A0CCA5498A3DB1D1A24F /* DuoProbeApp.swift */,
+				9C21861E26029AE9D7D904B3 /* ProbeContext.swift */,
+				D1D56E4BF7E4C808FAFF355B /* ProbeLog.swift */,
+				93A61C56A7E5F83587263116 /* SwiftUIProbeView.swift */,
+				0A9570E9AC2D11A82F056897 /* UIKitProbeViewController.swift */,
+			);
+			path = DuoProbe;
+			sourceTree = "<group>";
+		};
+		DB27C1CABCBF199F7B5CF3D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				670037607CB042EF0925B3FA /* DuoLab.app */,
+				46025018F2CAD841304FF803 /* DuoLabUIKit.app */,
+				D1F0D628C832F1F2D19F60BB /* DuoLabUITests.xctest */,
+				11E2044BCEFD071324043BCE /* DuoProbe.app */,
+				D65521025EF2918D4AB5F0FA /* Postcards.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E100561151A0C2CC0DB75CE4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BFAEBA08FEF374AF4B2CD330 /* Postcard.swift */,
+				57EB9A29CF6208859E8433A4 /* PostcardStore.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E4EC0DEC49B373E268CCC749 /* DuoLab */ = {
+			isa = PBXGroup;
+			children = (
+				B4E5BB8AE6E699C45B3F3C14 /* App */,
+				77B4C8CA8E1E52FBE25CFABE /* Screens */,
+			);
+			path = DuoLab;
+			sourceTree = "<group>";
+		};
+		E70A5A6FF6ECCB42ABD67CC7 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				7A31518813487BBC4893098D /* DuoFormat.swift */,
+				E3BAB45D1C128D1F0A8EC406 /* PoseLabel.swift */,
+				D62572C5B595C5B266D5F3ED /* ProbeNames.swift */,
+				FFA2AABEBE7F548C373C21FF /* ProbeRecord.swift */,
+				CCA6A89FAA929BC9F456130D /* ProbeRecord+Conversions.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		23D3ED3575F3BAF2472B8B89 /* DuoProbe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC57C247C9F08A5F8EB81302 /* Build configuration list for PBXNativeTarget "DuoProbe" */;
+			buildPhases = (
+				2DE45F4E12D4875CA3B672B6 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DuoProbe;
+			packageProductDependencies = (
+			);
+			productName = DuoProbe;
+			productReference = 11E2044BCEFD071324043BCE /* DuoProbe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		53206C003AA9893F802FBA10 /* DuoLabUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19F0E2B54A131DA62B232256 /* Build configuration list for PBXNativeTarget "DuoLabUITests" */;
+			buildPhases = (
+				56F044C486A0D5B711650579 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				379A3B4DE539304609F81BF4 /* PBXTargetDependency */,
+			);
+			name = DuoLabUITests;
+			packageProductDependencies = (
+			);
+			productName = DuoLabUITests;
+			productReference = D1F0D628C832F1F2D19F60BB /* DuoLabUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		A9044381E4A90C9F2878CD2C /* Postcards */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D82245DD1F0C4EEA548BFA09 /* Build configuration list for PBXNativeTarget "Postcards" */;
+			buildPhases = (
+				876DD42F3472660A14833284 /* Sources */,
+				3EDDAA724BB4DB8D284CA2F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Postcards;
+			packageProductDependencies = (
+			);
+			productName = Postcards;
+			productReference = D65521025EF2918D4AB5F0FA /* Postcards.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D2DCC0B4185BDD025CD2C6B2 /* DuoLabUIKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2884F3BCB22ED0AC05CBDFA /* Build configuration list for PBXNativeTarget "DuoLabUIKit" */;
+			buildPhases = (
+				F10D1D392A97A7FE840DDF5D /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DuoLabUIKit;
+			packageProductDependencies = (
+			);
+			productName = DuoLabUIKit;
+			productReference = 46025018F2CAD841304FF803 /* DuoLabUIKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FFE275B15FACD1EFFA9CB043 /* DuoLab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4330E5A4CB1842D9B29B4716 /* Build configuration list for PBXNativeTarget "DuoLab" */;
+			buildPhases = (
+				43F85BBA54F9D5A2B96E015D /* Sources */,
+				3C3C5F505D8B898A430623F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DuoLab;
+			packageProductDependencies = (
+			);
+			productName = DuoLab;
+			productReference = 670037607CB042EF0925B3FA /* DuoLab.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6FF9661E59F52EEAF5C6B809 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					23D3ED3575F3BAF2472B8B89 = {
+						ProvisioningStyle = Automatic;
+					};
+					53206C003AA9893F802FBA10 = {
+						ProvisioningStyle = Automatic;
+						TestTargetID = FFE275B15FACD1EFFA9CB043;
+					};
+					A9044381E4A90C9F2878CD2C = {
+						ProvisioningStyle = Automatic;
+					};
+					D2DCC0B4185BDD025CD2C6B2 = {
+						ProvisioningStyle = Automatic;
+					};
+					FFE275B15FACD1EFFA9CB043 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C60C16B31B0E744952815327 /* Build configuration list for PBXProject "DuoLab" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 54E8B929A6B23BAB5ED575E3;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = DB27C1CABCBF199F7B5CF3D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFE275B15FACD1EFFA9CB043 /* DuoLab */,
+				D2DCC0B4185BDD025CD2C6B2 /* DuoLabUIKit */,
+				53206C003AA9893F802FBA10 /* DuoLabUITests */,
+				23D3ED3575F3BAF2472B8B89 /* DuoProbe */,
+				A9044381E4A90C9F2878CD2C /* Postcards */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C3C5F505D8B898A430623F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F846C60E040D36774DF47B99 /* duo.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EDDAA724BB4DB8D284CA2F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D663EA8D3C465837228C0314 /* book-blueprint-overlay.png in Resources */,
+				E39A143B6800241DEA0872BD /* book-card.png in Resources */,
+				7D1F46077E757D3ACAAEB2EF /* closed-portrait-back.png in Resources */,
+				E7A6A10A53B398AD561C5A82 /* closed-portrait-blueprint.png in Resources */,
+				AC2881A26CC349132D03EAB5 /* closed-portrait-front.png in Resources */,
+				8168398A58E99F741015AF61 /* laptop-keyboard.png in Resources */,
+				39DD34968EE398275FFF3BC8 /* open-wide-card.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2DE45F4E12D4875CA3B672B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1F293909F75F3D08820197D /* DuoFormat.swift in Sources */,
+				1C798CB943A60F012CD129F7 /* DuoProbeApp.swift in Sources */,
+				0C8F194B3BA2FAEA750EA693 /* PoseLabel.swift in Sources */,
+				F3CF21D23BB716319AB08ABE /* ProbeContext.swift in Sources */,
+				E0305DA741825DC7A3205C90 /* ProbeLog.swift in Sources */,
+				BE568DDAA96D7EC3944177E9 /* ProbeNames.swift in Sources */,
+				49EA49440B488C6D41CD8E18 /* ProbeRecord+Conversions.swift in Sources */,
+				F323BAA7BE07DC4473981709 /* ProbeRecord.swift in Sources */,
+				9D21DC1FB0F456483C796F0D /* SwiftUIProbeView.swift in Sources */,
+				5576F051C829F230E9426599 /* UIKitProbeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43F85BBA54F9D5A2B96E015D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F39B071B58AE0B5AF3EBB185 /* Ch01HelloDuo.swift in Sources */,
+				4E6EC65C36DEBA3C70E60F19 /* Ch02SceneGeometry.swift in Sources */,
+				0AFAE9EC678CDE7BEC2B3A77 /* Ch03Probe.swift in Sources */,
+				1BCB31A5F5DC0498F0F0C933 /* Ch04FluidLayout.swift in Sources */,
+				96E6451C14EE5C843E943C6B /* Ch05SafeAreas.swift in Sources */,
+				823E3B90DD7D85C99C72CA74 /* Ch06Containers.swift in Sources */,
+				FDA7CEBBE1CD13291461D24F /* Ch07Bars.swift in Sources */,
+				361000CA2BE4AA04DBE82F9B /* Ch08ReservedRegions.swift in Sources */,
+				B86B21A3D94D04A46A9B67D1 /* Ch09Arrangements.swift in Sources */,
+				363B4E779537AEA21683299A /* Ch10Hinge.swift in Sources */,
+				1096D85962BDCDFD2DE717B6 /* Ch11Poses.swift in Sources */,
+				B7ADC69759270AC76D9F4C34 /* Ch12Scenes.swift in Sources */,
+				6C55E45D712558D17C57A8E0 /* Ch13Camera.swift in Sources */,
+				3DFA63D082C4842E07FBFC82 /* Ch14CaptureAccessory.swift in Sources */,
+				028D01348FAA53142B4DFC00 /* Ch15Games.swift in Sources */,
+				8D9142BD18037454B4A57D25 /* Ch16Web.swift in Sources */,
+				C380E0B38BF2B73F176C79E6 /* Ch17System.swift in Sources */,
+				3533011A927E2546A1FAA19E /* Ch19Migration.swift in Sources */,
+				670B31A9B45F6018036177B6 /* Components.swift in Sources */,
+				BD6070EB885FE5A7D12907CA /* Demo.swift in Sources */,
+				7ED349DB61C702A9D1D10F41 /* DemoCatalogView.swift in Sources */,
+				D184C1D1882A02DD57B0106C /* DemoDestination.swift in Sources */,
+				EFB5F617D27B581A870A981D /* DuoFormat.swift in Sources */,
+				2ED58C8C38F95637A89AEF60 /* DuoLabApp.swift in Sources */,
+				7354569F89F2E2AE74BBABAD /* PoseLabel.swift in Sources */,
+				5A8B82187C65577BDECA082B /* ProbeNames.swift in Sources */,
+				21E36C4F15133F5F119A0FC0 /* ProbeRecord+Conversions.swift in Sources */,
+				69A8A20FA4D55C95B26D5164 /* ProbeRecord.swift in Sources */,
+				C64D0B27BE7157D265FC8809 /* UIKitBridges.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56F044C486A0D5B711650579 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1111AB75D4F9C3ACF4881F94 /* PoseLabel.swift in Sources */,
+				A0BBB3C826ABF8F56DE6C0F7 /* PoseMatrixUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		876DD42F3472660A14833284 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D501EF30CB5D644B11F781D /* AboutView.swift in Sources */,
+				98E2C5798A1B29CB46A29ADA /* Blueprint.swift in Sources */,
+				473A2EFD22DFCA907F5E5E9B /* CardDetail.swift in Sources */,
+				A9304A00E9292DEC9EA0AEF3 /* CardsList.swift in Sources */,
+				ED6ABD80C0A3A2E3D090C631 /* EditCardSheet.swift in Sources */,
+				D6EA3D6F8BC35247A3104581 /* HingeTilt.swift in Sources */,
+				1E6FB2E0581C44879CB87ECA /* Postcard.swift in Sources */,
+				71A6F8C6C41F8B71E519CD4B /* PostcardBack.swift in Sources */,
+				C3FD4352EA7FE78706165ED4 /* PostcardFront.swift in Sources */,
+				9A7B9FB65FECD58BFEC12E86 /* PostcardStore.swift in Sources */,
+				C2F1593ABE34B6A726FF66A6 /* PostcardsApp.swift in Sources */,
+				75E25472B16E3D786F1C4867 /* RootView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F10D1D392A97A7FE840DDF5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D33D5B596B7BDF4C0BEB449 /* AppDelegate.swift in Sources */,
+				F31E687376FE7A25E8FA41E1 /* Ch02SceneGeometry.swift in Sources */,
+				26B36BFA116A915E1F964760 /* Ch04FluidLayout.swift in Sources */,
+				AAE1729FFD3A5F7C4E0F4D0E /* Ch05SafeAreas.swift in Sources */,
+				55583D4A929524EE0E2F03E7 /* Ch06Containers.swift in Sources */,
+				3693E8CECC2A85000B03FF11 /* Ch07Bars.swift in Sources */,
+				1470270BD13F02A33210E4B8 /* Ch08ReservedRegions.swift in Sources */,
+				71B7787E4D4E559427D5438D /* Ch09Arrangements.swift in Sources */,
+				7A4B766556AA012F5BA65212 /* Ch10Hinge.swift in Sources */,
+				89CF44149FBC1628FE214765 /* Ch12Windows.swift in Sources */,
+				CFB128BB228BD3512232713F /* Ch14CaptureAccessory.swift in Sources */,
+				944E80C7E031A66BF6D4CD16 /* Ch17System.swift in Sources */,
+				AE78D7C706BA96381F6BA6CD /* DemoListViewController.swift in Sources */,
+				79CE3B823B7BAABFE7C606DF /* DemoSupport.swift in Sources */,
+				12B461F0F76EC5D4CBB07771 /* DuoFormat.swift in Sources */,
+				987FDC45DC4004363E3F0F86 /* PoseLabel.swift in Sources */,
+				F68187053007241B536F12BA /* ProbeNames.swift in Sources */,
+				4AAB577982C1C085E92F3A8D /* ProbeRecord+Conversions.swift in Sources */,
+				B2E838CE0DC8481382508FAA /* ProbeRecord.swift in Sources */,
+				FEB24BD1CD876A608D397DCE /* RootTabBarController.swift in Sources */,
+				6A853B55D7DDD2FA99FDDB39 /* SceneDelegate.swift in Sources */,
+				C8D3844D168ED0ABB7715822 /* SettingsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		379A3B4DE539304609F81BF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFE275B15FACD1EFFA9CB043 /* DuoLab */;
+			targetProxy = 14AC6DAE9AC772C5944B6BB9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		27E2AC582BB060CB400D6194 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		3381132A9CD503DC0BB901F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Config/Postcards-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Postcards;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pro.ihor.unfolded.Postcards;
+				PRODUCT_NAME = Postcards;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		3FD3545C356D52A7C157A5A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Config/Postcards-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Postcards;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pro.ihor.unfolded.Postcards;
+				PRODUCT_NAME = Postcards;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		4B86CA03F1336A1AA775AF9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Config/DuoProbe-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = DuoProbe;
+				INFOPLIST_KEY_NSCameraUsageDescription = "DuoProbe records which cameras face the user in each pose of iPhone Duo.";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pro.ihor.unfolded.DuoProbe;
+				PRODUCT_NAME = DuoProbe;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		6C273B9DBBCB92EFE77DCE3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pro.ihor.unfolded.DuoLabUITests;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = DuoLab;
+			};
+			name = Release;
+		};
+		7D55906C693728451E5208DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Config/DuoLab-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = DuoLab;
+				INFOPLIST_KEY_NSCameraUsageDescription = "DuoLab shows the camera preview to demonstrate how capture adapts to each pose of iPhone Duo.";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pro.ihor.unfolded.DuoLab;
+				PRODUCT_NAME = DuoLab;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		7F8344CE83E7207B99B48AF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pro.ihor.unfolded.DuoLabUITests;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = DuoLab;
+			};
+			name = Debug;
+		};
+		8FC3D63DB6EA4FD34E40AC20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Config/DuoLab-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = DuoLab;
+				INFOPLIST_KEY_NSCameraUsageDescription = "DuoLab shows the camera preview to demonstrate how capture adapts to each pose of iPhone Duo.";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pro.ihor.unfolded.DuoLab;
+				PRODUCT_NAME = DuoLab;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		912A167ACB67D7751BAA39F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Config/DuoLabUIKit-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "DuoLab UIKit";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pro.ihor.unfolded.DuoLabUIKit;
+				PRODUCT_NAME = DuoLabUIKit;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A702AE39F39116FF2A699A44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Config/DuoProbe-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = DuoProbe;
+				INFOPLIST_KEY_NSCameraUsageDescription = "DuoProbe records which cameras face the user in each pose of iPhone Duo.";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pro.ihor.unfolded.DuoProbe;
+				PRODUCT_NAME = DuoProbe;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		EF73DE66BAC422489218D0CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		FACCBA0B8D2C0999D8847B56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Config/DuoLabUIKit-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "DuoLab UIKit";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pro.ihor.unfolded.DuoLabUIKit;
+				PRODUCT_NAME = DuoLabUIKit;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19F0E2B54A131DA62B232256 /* Build configuration list for PBXNativeTarget "DuoLabUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F8344CE83E7207B99B48AF9 /* Debug */,
+				6C273B9DBBCB92EFE77DCE3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4330E5A4CB1842D9B29B4716 /* Build configuration list for PBXNativeTarget "DuoLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D55906C693728451E5208DC /* Debug */,
+				8FC3D63DB6EA4FD34E40AC20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A2884F3BCB22ED0AC05CBDFA /* Build configuration list for PBXNativeTarget "DuoLabUIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				912A167ACB67D7751BAA39F4 /* Debug */,
+				FACCBA0B8D2C0999D8847B56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C60C16B31B0E744952815327 /* Build configuration list for PBXProject "DuoLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27E2AC582BB060CB400D6194 /* Debug */,
+				EF73DE66BAC422489218D0CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D82245DD1F0C4EEA548BFA09 /* Build configuration list for PBXNativeTarget "Postcards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3381132A9CD503DC0BB901F7 /* Debug */,
+				3FD3545C356D52A7C157A5A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		EC57C247C9F08A5F8EB81302 /* Build configuration list for PBXNativeTarget "DuoProbe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A702AE39F39116FF2A699A44 /* Debug */,
+				4B86CA03F1336A1AA775AF9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6FF9661E59F52EEAF5C6B809 /* Project object */;
+}

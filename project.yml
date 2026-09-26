@@ -1,0 +1,208 @@
+# DuoLab companion project for "Unfolded: The iPhone Duo Developer Handbook".
+# Copyright (c) 2026 Ihor Malovanyi. MIT License.
+#
+# Regenerate the Xcode project with `xcodegen generate` from this folder.
+# The Info.plist files under Config/ are generated from the `info` blocks
+# below; edit this file, not the plists.
+
+name: DuoLab
+
+options:
+  bundleIdPrefix: pro.ihor.unfolded
+  deploymentTarget:
+    iOS: "27.0"
+  developmentLanguage: en
+  createIntermediateGroups: true
+  generateEmptyDirectories: true
+
+# Settings every target shares. Applied at the target level so they win
+# over the per-target defaults (for example the iPhone + iPad family).
+settingGroups:
+  common:
+    IPHONEOS_DEPLOYMENT_TARGET: "27.0"
+    SWIFT_VERSION: "6.0"
+    SWIFT_STRICT_CONCURRENCY: complete
+    TARGETED_DEVICE_FAMILY: "1"
+    GENERATE_INFOPLIST_FILE: YES
+  app:
+    groups: [common]
+    base:
+      INFOPLIST_KEY_UISupportedInterfaceOrientations: >-
+        UIInterfaceOrientationPortrait
+        UIInterfaceOrientationPortraitUpsideDown
+        UIInterfaceOrientationLandscapeLeft
+        UIInterfaceOrientationLandscapeRight
+
+settings:
+  base:
+    MARKETING_VERSION: "1.0"
+    CURRENT_PROJECT_VERSION: "1"
+    CODE_SIGN_STYLE: Automatic
+    ENABLE_USER_SCRIPT_SANDBOXING: YES
+  groups: [common]
+
+targets:
+  DuoLab:
+    type: application
+    platform: iOS
+    sources:
+      - path: DuoLab
+        excludes:
+          - "**/.gitkeep"
+      - path: Shared
+      - path: Web
+        buildPhase: resources
+    info:
+      path: Config/DuoLab-Info.plist
+      properties:
+        CFBundleDisplayName: DuoLab
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
+        UILaunchScreen: {}
+        UIApplicationSceneManifest:
+          UIApplicationSupportsMultipleScenes: true
+    settings:
+      groups: [app]
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: pro.ihor.unfolded.DuoLab
+        PRODUCT_NAME: DuoLab
+        INFOPLIST_KEY_CFBundleDisplayName: DuoLab
+        INFOPLIST_KEY_NSCameraUsageDescription: >-
+          DuoLab shows the camera preview to demonstrate how capture
+          adapts to each pose of iPhone Duo.
+
+  DuoLabUIKit:
+    type: application
+    platform: iOS
+    sources:
+      - path: DuoLabUIKit
+        excludes:
+          - "**/.gitkeep"
+      - path: Shared
+    info:
+      path: Config/DuoLabUIKit-Info.plist
+      properties:
+        CFBundleDisplayName: DuoLab UIKit
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
+        UILaunchScreen: {}
+        UIApplicationSceneManifest:
+          UIApplicationSupportsMultipleScenes: true
+          UISceneConfigurations:
+            UIWindowSceneSessionRoleApplication:
+              - UISceneConfigurationName: Default Configuration
+                UISceneDelegateClassName: $(PRODUCT_MODULE_NAME).SceneDelegate
+    settings:
+      groups: [app]
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: pro.ihor.unfolded.DuoLabUIKit
+        PRODUCT_NAME: DuoLabUIKit
+        INFOPLIST_KEY_CFBundleDisplayName: DuoLab UIKit
+
+  DuoProbe:
+    type: application
+    platform: iOS
+    sources:
+      - path: DuoProbe
+        excludes:
+          - "**/.gitkeep"
+      - path: Shared
+    info:
+      path: Config/DuoProbe-Info.plist
+      properties:
+        CFBundleDisplayName: DuoProbe
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
+        UILaunchScreen: {}
+        UIApplicationSceneManifest:
+          UIApplicationSupportsMultipleScenes: false
+        # Shows Documents/probe.jsonl in the Files app on a device.
+        UIFileSharingEnabled: true
+        LSSupportsOpeningDocumentsInPlace: true
+    settings:
+      groups: [app]
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: pro.ihor.unfolded.DuoProbe
+        PRODUCT_NAME: DuoProbe
+        INFOPLIST_KEY_CFBundleDisplayName: DuoProbe
+        INFOPLIST_KEY_NSCameraUsageDescription: >-
+          DuoProbe records which cameras face the user in each pose of
+          iPhone Duo.
+
+  Postcards:
+    type: application
+    platform: iOS
+    sources:
+      - path: Postcards
+        excludes:
+          - "**/.gitkeep"
+    info:
+      path: Config/Postcards-Info.plist
+      properties:
+        CFBundleDisplayName: Postcards
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
+        UILaunchScreen: {}
+        UIApplicationSceneManifest:
+          UIApplicationSupportsMultipleScenes: true
+    settings:
+      groups: [app]
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: pro.ihor.unfolded.Postcards
+        PRODUCT_NAME: Postcards
+        INFOPLIST_KEY_CFBundleDisplayName: Postcards
+
+  DuoLabUITests:
+    type: bundle.ui-testing
+    platform: iOS
+    sources:
+      - path: DuoLabUITests
+        excludes:
+          - "**/.gitkeep"
+      # The pose matrix iterates the same labels DuoProbe logs.
+      - path: Shared/PoseLabel.swift
+    dependencies:
+      - target: DuoLab
+    settings:
+      groups: [common]
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: pro.ihor.unfolded.DuoLabUITests
+        TEST_TARGET_NAME: DuoLab
+
+schemes:
+  DuoLab:
+    build:
+      targets:
+        DuoLab: all
+    run:
+      config: Debug
+    test:
+      config: Debug
+      targets:
+        - DuoLabUITests
+    archive:
+      config: Release
+  DuoLabUIKit:
+    build:
+      targets:
+        DuoLabUIKit: all
+    run:
+      config: Debug
+    archive:
+      config: Release
+  DuoProbe:
+    build:
+      targets:
+        DuoProbe: all
+    run:
+      config: Debug
+    archive:
+      config: Release
+  Postcards:
+    build:
+      targets:
+        Postcards: all
+    run:
+      config: Debug
+    archive:
+      config: Release
