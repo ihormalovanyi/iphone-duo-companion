@@ -10,6 +10,7 @@ fold). Built with Xcode 27.1 beta and the iOS 27.1 SDK.
 - **Free sample**: the cover, the front matter and Chapter 1:
   https://ihormalovanyi.gumroad.com/l/iphone-duo-sample
 - **Screenshots of Postcards in every pose**: `Postcards/Screenshots/`
+- **Field note**, what the iPhone Duo simulator actually reports (the hinge slider, the fold region, the bar edge, sheet placement): https://ihormalovanyi.github.io/iphone-duo-companion/ (Markdown: `FIELD-NOTE.md`)
 
 ## What this is
 
