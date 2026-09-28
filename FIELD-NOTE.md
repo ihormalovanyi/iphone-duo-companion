@@ -61,5 +61,4 @@ This field note is a slice of *Developing for iPhone Duo: Approaches and Tips*, 
 - [The book on Gumroad](https://ihormalovanyi.gumroad.com/l/iphone-duo) (PDF, EPUB, companion project)
 - [The first chapter, free](https://ihormalovanyi.gumroad.com/l/iphone-duo-sample)
 - [Companion code on GitHub](https://github.com/ihormalovanyi/iphone-duo-companion): DuoLab, DuoProbe and Postcards, the app in the pictures
-- [Below the Glass](https://claude.ai/artifact/8KNgYdi93aLYYCC9bTnrUX), the main series on what iOS 26 hides
 
